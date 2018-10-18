@@ -1,0 +1,1834 @@
+
+.ThirdNavWrapper.AIM{
+	display: none;
+}
+	
+	.text1.AIMText .Banner{
+		padding-bottom:78px;
+	}
+	.AIMContent{
+		width:100%;
+		padding:40px 0;
+	}
+	.AIMContent.AIMColor{
+		background-color:#ff8a00;
+	}
+	.AIMContent.AIMColor0{
+		background-color:#ddd;
+	}
+
+	.AIMContent h4{
+		line-height:300%;
+		font-size:2em;
+	}
+	.AIMContent.AIMColor h4{
+		color:#fff;
+	}
+	.AIMContent p{
+		line-height:120%;
+		font-size:1em;
+	}
+	.AIMContent.AIMColor p{
+		color:#fff;
+	}
+	.AIMContent td{
+		vertical-align:top;
+	}
+
+	.ProductBlock{
+		max-width:1200px;
+		margin:0 auto;
+		overflow: visible;
+		/* overflow:hidden; */
+		*
+		padding-bottom:25px;
+		-webkit-transition:all .3s ease;
+		-o-transition:all .3s ease;
+		transition:all .3s ease;
+	}
+	.ProductBlock:before,
+	.ProductBlock:after{
+		content:"";
+		display:inline-block;
+		clear:both;
+		width:100%;
+	}
+	.ProductBlock.hide{
+		filter: Alpha(opacity=0);
+		-webkit-opacity:0;
+		-moz-opacity:0;
+		opacity:0;
+	}
+	.ProductBlock ul{
+		width:100%;
+		display:inline-block;
+	}
+/**.ProductBlock ul:after{
+	content: '';
+	width: 100%;
+	display: inline-block;
+	font-size: 0;
+	line-height: 0
+	}*/
+	.ProductBlock ul li{
+		position:relative;
+		width:18%;
+		display: block;
+	/*	border:1px solid #f0f0f0;
+	background-color:#f4f4f4; */
+	transition: .4s ease;
+	-webkit-transition: .4s ease;
+	-moz-transition: .4s ease;
+	-o-transition: .4s ease;
+	margin: 1% 1%;
+	-webkit-box-shadow: 0px 0px 1px #ccc;
+	        box-shadow: 0px 0px 1px #ccc;
+	float: left;
+}
+.t_banner .ThirdNavWrapper li a {
+    color: #fff;
+    background: rgba(51, 51, 51, 0.9);
+}
+.t_banner .ThirdNavWrapper li.act a{
+    background:#00a0e8;
+}
+.fulls_video_banner_bg_wrap{
+	position: absolute;
+    width: 100%;
+    top: -100px;
+    z-index: 0;
+    height: 100%;
+    bottom: 0;
+}
+.fulls_video_banner_bg_mask{
+	position: absolute;
+	z-index: 0;
+	height: 100%;
+    width: 100%;
+}
+.fulls_video_banner_bg_mask.black{
+	background: rgba(0,0,0,.7);
+}
+.fulls_video_banner_bg_mask.white{
+	background: rgba(255,255,255,.7);
+}
+@media only screen and (min-width:1024px){
+	.ProductBlock ul li.hover{
+		transform: scale(1.2, 1.2) rotate(0deg);
+		-moz-transform: scale(1.2, 1.2) rotate(0deg);
+		-webkit-transform: scale(1.5, 1.5) rotate(0deg);
+		-ms-transform: scale(1.2, 1.2) rotate(0deg);
+		-o-transform: scale(1.2, 1.2) rotate(0deg);
+		position: relative;
+		z-index: 1;
+		-webkit-box-shadow: 0 0 10px 0 #ddd;
+		        box-shadow: 0 0 10px 0 #ddd;
+		border: 0;
+	}
+}
+.BiometricBanner .BannerImg{
+	position:absolute;
+	width:558px;
+	height:337px;
+	background:url(images/uploadfiles/BiometricBanner1.png) no-repeat right top;
+	top:-20px;
+	right:0;
+}
+.RFIDBanner .BannerImg{
+	position:absolute;
+	width:558px;
+	height:337px;
+	background:url(images/uploadfiles/RFID.png) no-repeat right top;
+	top:-20px;
+	right:0;
+}
+
+.DescriptionWidth{
+	width:650px;
+}
+.ProductBlock ul li.hover{
+	background-color:#f8f8f8;
+}
+.ProductBlock ul li span{
+	display:block;
+	width:100%;
+	text-align:center;
+}
+.ProductBlock ul li span img{
+	width:87%;
+	margin:24px auto 12px;
+}
+.ProductBlock ul li.hover span a img{
+	transition: .4s ease;
+
+
+	opacity:0.8;
+	-webkit-opacity:0.8;
+	-moz-opacity:0.8;
+	transition: .4s ease;
+	-webkit-transition: .4s ease;
+	-moz-transition: .4s ease;
+	-o-transition: .4s ease;
+}
+.ProductBlock ul li .triangle{
+	left:50%;
+	margin-left:0;
+	border-width:0;
+	bottom:-25px;
+	border-color:transparent transparent #3b3b3b;
+	transition:all .2s ease;
+	-webkit-transition:all .2s ease;
+	-moz-transition:all .2s ease;
+	-o-transition:all .2s ease;
+}
+.ProductBlock ul li.act .triangle{
+	bottom:-25px;
+	margin-left:-15px;
+	border-width:20px;
+}
+.ProductBlock ul li .ProductItem{
+	padding:0 18px;
+	cursor:pointer;
+	width: 100%;
+}
+.ProductBlock ul li span a:hover img{
+	opacity:1;
+	-webkit-opacity:1;
+	-moz-opacity:1;
+}
+.ProductBlock ul li h5{
+	font-size:1.2em;
+	line-height:120%;
+	font-weight:300;
+	white-space: nowrap;
+	height: 1.5em;
+	display: block;
+}
+.ProductBlock ul li p{
+	line-height: 1.5em;
+	font-size:0.9em;
+	color:#444;
+	height: 3em;
+	overflow-y: hidden;
+	overflow-x: auto;
+	margin-bottom: 1.5em;
+}
+.ProductBlock ul li p b{
+	display:block;
+	float:left;
+	border:1px solid #bebebe;
+	padding: 1px 6px;
+	margin: 0 2px 2px 0;
+}
+.ProductBlock ul li .support{
+	opacity:0;
+	display:none;
+}
+.ProductBlock ul li.hover .support{
+	display:block;
+	text-align:center;
+	-webkit-transition: .4s ease;
+	-o-transition: .4s ease;
+	transition: .4s ease;
+	opacity:1;
+	width: 100%;
+	position:absolute;
+	bottom: -1em;
+	left:0;
+}
+.ProductBlock ul li.hover .support.hover{
+	opacity:1;
+}
+.ProductBlock ul li .support a{
+	line-height:200%;
+	font-size: 1em;
+	padding: 0 1em;
+	/* border-radius: 1em; */
+	height: auto;
+}
+.ProductBlock ul li .ProductItem > a.more,
+.ProductBlock ul li > a.more{
+	display:none;
+	background-color:#09c;
+	color:#fff;
+}
+.ProductBlock ul li > a.more:hover{
+	background-color:#39f;
+}
+.advantages span{
+	display:inline-table;
+	width:83px;
+	height:83px;
+	margin:5px 10px 0 0;
+}
+.ProductList dl dd .fuction{
+	padding-top:20px;
+}
+.ProductList dl dd .fuction a{
+	height:24px;  
+	background:url(images/ProductIcon5.gif) no-repeat;
+	padding:0 22px 0 18px;
+	font-size:0.8em;
+	width:auto;
+	color:#069;
+}
+.ProductList dl dd .fuction a.l1{
+	background-position:0 3px;
+}
+.ProductList dl dd .fuction a.l2{
+	background-position:0 -21px;
+}
+.ProductList dl dd .fuction a.l3{
+	background-position:0 -45px;
+}
+.ProductList dl dd .fuction a.l4{
+	background-position:0 -69px;
+}
+.ProductList dl dd .fuction ul li{
+	float:left;
+	position:relative;
+}
+.ProductList dl dd .fuction a.l5{
+	background-position:0 -93px;
+}
+.ProductList dl dd .fuction a.l6{
+	background-position:0 -117px;
+}
+.ProductList dl dd .fuction a.l7{
+	background-position:0 -141px;
+}
+.ProductList .OpenList{
+	position:absolute;
+	height:148px;
+	width:364px;
+	padding:0 18px;
+	border:7px solid #069;
+	overflow-y:auto;
+	left:-15px;
+	background-color:#fff;
+	z-index:5;
+}
+.ProductList dl dd .fuction .OpenList a{
+	background:none;
+	padding:0;
+	height:auto;
+}
+.ProductList .fuction .OpenList a span{
+	color:#666;
+}
+.AnvizAdvantages{
+	padding-bottom:20px;
+}
+.AnvizAdvantages h3{
+	padding:8px 0;
+	font-size:1.3em;
+	line-height:200%;
+}
+.AnvizAdvantages ul{
+	overflow:hidden;
+}
+.AnvizAdvantages ul li{
+	width:212px;
+	padding:10px 12px;
+	height:180px;
+	color:#fff;
+	float:left;
+	margin-right:12px;
+	background-color:#888;
+}
+.AnvizAdvantages ul li.MarginRight{
+	margin-right:0;
+}
+.AnvizAdvantages font{
+	font-size:0.7em;
+	line-height: 110%;
+}
+.AnvizAdvantages p{
+	line-height:200%;
+}
+.AnvizAdvantages ul li span{
+	display:block;
+	background:url(images/advantage.png) no-repeat 0 0;
+	width:50px;
+	height:50px;
+}
+.AnvizAdvantages ul li span.ad1{
+	background-position:0 0;
+}
+.AnvizAdvantages ul li span.ad2{
+	background-position:0 -52px;
+}
+.AnvizAdvantages ul li span.ad3{
+	background-position:0 -105px;
+}
+.AnvizAdvantages ul li span.ad4{
+	background-position:0 -155px;
+}
+
+/*ÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â¼Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã‚Â¥ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã‚Â¥Ãƒâ€šÃ‚Â±ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡*/
+.OpenDiv .content{
+	background-color:#fff;
+	border:5px solid #00a0e8;
+	overflow:hidden;
+}
+.OpenDiv .content dl.CaseStudyList dd.act a,
+.OpenDiv .content dl.CaseStudyList a:hover{
+	background-color:#eee;
+	color:#a2a2a2;
+}
+.OpenDiv .content dl.CaseStudyList dd p{
+	width:107px;
+	line-height:110%;
+	font-size:0.8em;
+	padding:8px 0;
+}
+/*
+.OpenDiv .content0{
+	bottom:145px;
+	}*/
+	.description{
+
+		display:block;
+		padding: 18px 0 25px;
+		background-color: #fff;
+	}
+	.description h3,.PictureList h3{
+		padding:8px 0;
+		color:#069;
+		font-size:1em;
+	}
+	.description h3 span,.PictureList h3 span{
+		font-size:2em;
+		padding-right:10px;
+	}
+	.description,.PictureList{
+		color:#069;	
+	}
+	.description span.added,.PictureList span.added{
+		font-size: 1.3em;
+		line-height: 150%;
+	}
+	.fuction li a,
+	.OpenDiv .contentpic ul li,.contentpic ul li a{
+		width:0;
+		height:0;
+	}
+/*.OpenDiv .content0 {
+	bottom:210px;
+}
+.OpenDiv .content1{
+	bottom:90px;
+	left:0;
+	}*/
+	.OpenDiv .content1{
+	}
+
+
+	.OpenDiv .contentpic{
+		position:absolute;
+		height:130px;
+		bottom:80px;
+		padding-left:15px;
+		left:136px;
+	}
+	.OpenDiv .contentpic ul li a img {
+		margin: 8px auto 0;
+	}
+	.OpenDiv .fuction ul{
+		padding-left:10%;
+	}
+	.OpenDiv .fuction li,.OpenDiv .OpenListBox{
+		width:10%;
+		padding-top:15px;
+		float:left;
+		text-align:center;
+	}
+	.OpenDiv .contentpic ul li{
+		float: left;
+		height: 130px;
+		margin-right: 10px;
+		text-align: center;
+		width: 100px;
+	}
+	.OpenDiv .contentpic ul li a{
+		color:#666;
+	}
+	.OpenDiv .contentpic ul li a .img {
+		border: 3px solid #fff;
+		display: block;
+		height: 94px;
+		text-align: center;
+		width: 94px;
+	}
+	.OpenDiv .contentpic ul li a img {
+		margin: 8px auto 0;
+	}
+	.PictureList{
+		left: -82%;
+		position: absolute;
+		top: 0;
+		width: 78%;
+		bottom: 0;
+		padding-top: 22%;
+		padding-left:4%;
+		z-index: 2;
+		background: #fff;
+	}
+	/*OpenProductBox*/
+	.OpenProductBox{
+		display:none;
+	}
+	.OpenProduct {
+	}
+	.ListOpen.OpenProduct {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 99999;
+		overflow: auto;
+		background: #777777;
+	}
+	.OpenProduct .Close{
+		position: fixed;
+		right:0;
+		text-align:center;
+		top:6px;
+		width:50px;
+		height:50px;
+		line-height:50px;
+		color:#bbb;
+		font-size:40px;
+		cursor:pointer;
+	}
+	.ListOpen.OpenProduct .productdetailwrap {
+		margin: 50px;
+		background: #fff;
+	}
+
+	.productdetailwrap .item section {
+		padding: 0 50px;
+	}
+	.productdetailwrap .item section:after{
+		content:"";
+		display:block;
+		clear:both;
+	}
+	.productdetailwrap .item section.description{
+		/* height: 500px; */
+		border-top: 1px solid #eee;
+		border-bottom: 1px solid #eee;
+	}
+	.productdetailwrap .item section > h3{
+		text-align:center;
+		margin-top:2em
+	}
+	.productdetailwrap .item section > h3:after{
+		content:"";
+		border-bottom:1px solid #aaa;
+		display:block;
+		width:50px;
+		margin:.5em auto;
+	}
+
+	.OpenProduct .ProductImg .SlideTab ul:before,
+	.OpenProduct .ProductImg .SlideTab ul:after{
+		content:"";
+		height:100%;
+	}
+
+	.OpenProduct .ProductTitle{
+		/* height:3.5em; */
+	/*	border-bottom:1px solid #222;
+	text-shadow:0px -1px 0px #000;*/
+	/* margin-bottom: 3em; */
+}
+.OpenProduct .ProductTitle h1{
+	width:auto;
+	color:#666;
+	font-size: 2em;
+	border-bottom: 1px solid #eee;
+	padding: 30px;
+	background: #fafafa;
+	margin-top: 0;
+}
+.OpenProduct .ProductTitle h1 .BreadCrumbs{
+	font-size:.4em;
+}
+/*Product-article*/
+.OpenProduct .ProductTitle0{
+	height:5.5em;
+}
+.ProductTitle0 h1{
+	width:auto;
+	color:#666;
+	line-height:32px;
+	height:89px;
+	font-size:3em;
+	display:block;
+	border-bottom:1px solid #adadad;
+}
+.ProductTitle0 h1 .BreadCrumbs{
+	font-size:0.35em;
+	margin:0.5em 0;
+	color:#999;
+}
+.BreadCrumbs a{
+	margin-right:0.5em;
+	color:#999;
+}
+.BreadCrumbs a.Acolor{
+	color:#0cf;
+}
+.ProductTitle0 .addthis_toolbox{
+	top:-30px;
+}
+/*.OpenProduct > .SlideListb.SlideListb0{
+	top:158px;
+	}*/
+	/**/
+	.OpenProduct h1 b{
+		font-size: 0.5em;
+		display: block;
+		font-weight: normal;
+	}
+	.OpenProduct .ProductNav{
+		overflow: hidden;
+	}
+	.OpenProduct .ProductNav{
+		padding:15px 0 ;
+		float:left;
+	}
+	.OpenProduct .ProductNav li {
+		float:left;
+		display:block;
+	}
+	.ProductBlock ul li.act{
+		/*border-color:#0cf;*/
+		-webkit-box-shadow: 0 0 5px #00a0e8;
+		        box-shadow: 0 0 5px #00a0e8;
+		border-radius: 5px;
+	}
+	.OpenProduct .ProductNav ul a.Sales{
+		float:left;
+	}
+	.OpenProduct .ProductNav li a{
+		background-color:#dadada;
+		border:2px solid #f0f0f0;
+		color:#777;
+		float:left;
+		display: block;
+		padding:0 1em;
+		margin-right:15px;
+		line-height:1.5em;
+	}
+	.OpenProduct .ProductNav li.act a,
+	.OpenProduct .ProductNav li a:hover{
+		background-color:#0cf;
+		color:#fff;
+	}
+	.OpenProduct >.SlideListb{
+	/*position:absolute;
+	top:130px;
+	max-height:452px;
+	bottom:0;
+	left:0;
+	right:0;*/
+}
+.OpenProduct.OpenProduct0 >.SlideListb{
+	top:160px;
+}
+.OpenProduct >.SlideListb >dl{
+	height:100%;
+}
+.OpenProduct .ProductImg > .SlideListb{
+	height: 100%;
+	right: 8;
+	display: table-cell;
+	vertical-align: top;
+	/* width: 500px; */
+}
+.OpenProduct .ProductImg{
+	height:100%;
+	position:relative;
+	display: table;
+}
+.OpenProduct .ProductImg .SlideTab{
+	/* position: absolute; */
+	/* top: 0; */
+	/* right: 0; */
+	width: 80px;
+	z-index:1;
+	/* bottom: 0; */
+	border-right: 1px solid rgba(0,0,0,.1);
+	/* float: right; */
+	display: table-cell;
+	vertical-align: middle;
+}
+.OpenProduct .ProductImg .ProductImgList{
+	/* width: 80px; */
+	/* height: 100%; */
+	/* overflow:hidden; */
+	text-align: center;
+	vertical-align: middle;
+}
+.OpenProduct .ProductImg .SlideTab ul{
+	height: 100%;
+	display: table-row;
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
+	-ms-flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	        flex-direction: column;
+	overflow-x:auto;
+}
+.OpenProduct .ProductImg .SlideTab li{margin: 10px auto;}
+.OpenProduct .ProductImg .SlideTab li img{
+	/* background-color:#fff; */
+	width: 50px;
+	/* padding:5px; */
+	/* border:1px solid #ccc; */
+	/*
+	border-width:1px;
+	border-color:#aaa #333 #222 #555;
+	border-style:solid;*/
+	opacity: 1;
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	/* this works in IE6, IE7, and IE8 */
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100); 
+	/* this works in IE8 only */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=100)";
+}
+.OpenProduct .ProductImg .SlideTab li.act img{
+	opacity:.5;
+	-webkit-opacity:.5;
+	-moz-opacity:.5;
+	/* this works in IE6, IE7, and IE8 */
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50); 
+	/* this works in IE8 only */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=50)";
+}
+.OpenProduct .ProductImg .Turn{
+	position:relative;
+	display:none;
+}
+.OpenProduct .ProductImg .Turn a{
+	width:30px;
+	height: 30px;
+	*width:78px;
+	*height:39px;
+	*zoom:75%;
+	-ms-zoom:75%;
+	position: absolute;
+	top: 11px;
+	z-index:2;
+	display: block;
+	background:url(images/prevnext2.png) no-repeat;
+	text-indent:-90000px;
+	background-size:100% auto;
+}
+.OpenProduct .ProductImg .Turn a.pre {
+	left:-40px;
+	background-position: 0 0;
+}
+.OpenProduct .ProductImg .Turn a.nex {
+	right:-40px;
+	*right:-68px;
+	background-position: 0 bottom;
+}
+.OpenProduct .ProductImg .Turn a.pre:hover {
+}
+.OpenProduct .ProductImg .Turn a.nex:hover {
+}
+.OpenProduct .ProductImg .SlideListb dl {
+	text-align:center;
+	/* height: 100%!important; */
+}
+.OpenProduct .ProductImg .SlideListb dl img{
+	/* background-color:#fff; */
+	/* width:90%; */
+	/* padding:4.5% 5%; */
+	/* margin:0 auto; */
+	/* display:block; */
+	height: 100%;
+}
+.OpenProduct .ProductDiscreption{
+	/* position: absolute; */
+	/* top: 0; */
+	/* bottom: 0; */
+	/* left: 0; */
+	/* right: 50%; */
+	overflow:hidden;
+	display: table-cell;
+}
+.OpenProduct .ProductDiscreption p,
+.OpenProduct .application p{
+	clear:both;
+	/*padding-top:30px;
+	line-height:1.4em;*/
+	color:#666;
+}
+.OpenProduct .ProductDiscreption .ProductFuture{
+	/*height:95px;
+	width:470px;
+	overflow:hidden;*/
+}
+.OpenProduct .ProductDiscreption .ProductFuture ul{
+	/*width:1000px;*/
+	width:auto;
+	
+}
+.OpenProduct .ProductImg .ProductFuture li{
+	display:inline-block;
+}
+.OpenProduct .ProductImg .ProductFuture li a{
+	width:83px;
+	height:83px;
+	display:block;
+	margin:13px;
+	margin-left:0;
+	background:url(../img/icon/ProductFeatureIcon.png) no-repeat #6f6f6f;
+}
+.OpenProduct .ProductImg .ProductFuture li a.PFI_TouchScreen{
+	background-position:0 0;
+}
+.OpenProduct .ProductImg .ProductFuture li a.PFI_DualCameras{
+	background-position:-83px 0;
+}
+.OpenProduct .ProductImg .ProductFuture li a.PFI_Camera{
+	background-position:-166px 0;
+}
+.OpenProduct .ProductImg .ProductFuture li a.PFI_IrisRecognition{
+	background-position:-249px 0;
+}
+.OpenProduct .ProductImg .ProductFuture li a.PFI_VoicePrompt{
+	background-position:-332px 0;
+}
+.OpenProduct .ProductImg .ProductFuture li a.PFI_InbuiltProximityCardReader{
+	background-position:-415px 0;
+}
+.OpenProduct .ProductImg .ProductFuture li a.PFI_TFTColorLCD{
+	background-position:-498px 0;
+}
+.OpenProduct .ProductImg .ProductFuture li a.PFI_FingerprintSensor{
+	background-position:-581px 0;
+}
+.OpenProduct .ProductImg .ProductFuture li a.PFI_GPRS{
+	background-position:0 -83px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.PFI_Wifi{
+	background-position:-83px -83px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.PFI_TCPIP{
+	background-position:-166px -83px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.PFI_USBHost{
+	background-position:-249px -83px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.PFI_ZigBee{
+	background-position:-332px -83px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.PFI_RS232RS485{
+	background-position:-415px -83px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.PFI_USB{
+	background-position:-498px -83px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.PFI_Bluetooth{
+	background-position:-581px -83px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.PFI_Record{
+	background-position:0 -166px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.PFI_MultipleLanguageDisplay{
+	background-position:-83px -166px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.PFI_TextMessage{
+	background-position:-166px -166px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.PFI_DaylightSaving{
+	background-position:-249px -166px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.PFI_Webserver{
+	background-position:-332px -166px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.PFI_RemoteDoorControl{
+	background-position:-415px -166px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.Battery{
+	background-position:-498px -166px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.Password{
+	background-position:-581px -166px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.IP65{
+	background-position:0 -249px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.IK10{
+	background-position:-83px -249px;
+}
+/* surveillance feature icon add by Andrew 2015 08 13*/
+.OpenProduct .ProductImg .ProductFuture li a.SURI_IP66{
+	background-position:0 -332px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.Mifare{
+	background-position:-166px -249px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.SURI_IP67{
+	background-position:-83px -332px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.SURI_IK10{
+	background-position:-166px -332px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.SURI_PoE{
+	background-position:-249px -332px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.SURI_WDR{
+	background-position:-332px -332px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.SURI_WiFi{
+	background-position:-415px -332px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.SURI_720P{
+	background-position:-498px -332px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.SURI_1080P{
+	background-position:-581px -332px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.SURI_SmartIR{
+	background-position:0 -415px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.SURI_LowLux{
+	background-position:-83px -415px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.SURI_Audio{
+	background-position:-166px -415px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.SURI_PIris{
+	background-position:-249px -415px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.SURI_3X{
+	background-position:-332px -415px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.SURI_18X{
+	background-position:-415px -415px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.SURI_20X{
+	background-position:-498px -415px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.SURI_30X{
+	background-position:-581px -415px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.SURI_1MP{
+	background-position:0 -498px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.SURI_1_3MP{
+	background-position:-83px -498px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.SURI_2MP{
+	background-position:-166px -498px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.SURI_3MP{
+	background-position:-249px -498px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.SURI_4MP{
+	background-position:-332px -498px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.SURI_5MP{
+	background-position:-415px -498px;
+}
+.OpenProduct .ProductImg .ProductFuture li a.SURI_WhiteLED{
+	background-position:-498px -498px;
+}
+
+.Parameter{
+	width:100%;
+}
+.Parameter table table{
+	margin-bottom:20px;
+}
+.Parameter th{
+	color: #999;
+	font-size: 2em;
+	font-weight: 300;
+	height: 55px;
+	text-align: left;
+	padding-left: 5px;
+	border-bottom:3px solid #eee;
+}
+.Parameter0 a{
+	color:#666;
+	font-size:15px;
+}
+.Parameter0 a.more{
+	background-color:#0cf;
+	color:#fff;
+	font-size:13px;
+}
+.Parameter0 a:hover{
+	color:#0cf;
+}
+.Parameter0 a.more:hover{
+	color:#fff;
+}
+.Parameter table table td p{
+	padding:5px;
+}
+.Parameter td{
+	color:#666;
+	height:40px;
+	padding-left:5px;
+	border-bottom:2px solid #efefef;
+}
+.Parameter0 td{
+	font-size:13px;
+	height:45px;
+	border-bottom:0;
+}
+/*.Parameter tr:hover td{
+	background:#f9f9f9;
+}
+*/
+.OpenProduct dl.CaseStudyList{
+	width:119px;
+	padding:0 12px 0 5px;
+	text-align:center;
+	background-color:#eee;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+.OpenProduct dl.CaseStudyList dd {
+	position:relative;
+	transition:all .5s ease;
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	-o-transition:all .5s ease;
+}
+.OpenProduct dl.CaseStudyList dd .triangle{
+	border-color:transparent #3b3b3b transparent transparent;
+	border-width:10px;
+	border-style:solid;
+	left:146px;
+	top:70px;
+	-webkit-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.OpenProduct dl.CaseStudyList dd.act .triangle{
+	left:112px;
+	top:40%;
+}
+.OpenProduct dl.CaseStudyList dt{
+	line-height:120%;
+	padding:5px 0;
+	color:#a2a2a2;
+	font-size:0.9em;
+}
+.OpenProduct dl.CaseStudyList a{
+	display:block;
+	width:107px;
+	padding:6px;
+	color:#333;
+}
+.OpenProduct dl.CaseStudyList{
+	position:absolute;
+	bottom:0;
+	top:0;
+}
+.OpenProduct dl.CaseStudyList dd{
+	margin-bottom:6px;
+	opacity:.5;
+	-webkit-opacity:.5;
+	-moz-opacity:.5;
+}
+.OpenProduct dl.CaseStudyList dd h5{
+	text-align:center;
+	color:#999;
+}
+.OpenProduct dl.CaseStudyList dd p{
+	width:107px;
+	line-height:110%;
+	font-size:0.8em;
+	padding:8px 0;
+}
+.OpenProduct dl.CaseStudyList dd.act{
+	opacity:1;
+	-webkit-opacity:1;
+	-moz-opacity:1;
+}
+.OpenProduct dl.CaseStudyList dd.act a,
+.OpenProduct dl.CaseStudyList a:hover{
+	color:#a2a2a2;
+}
+.OpenProduct .content0{
+	min-height:100px;
+}
+.OpenProduct .content0 .left{
+	padding-right:25px;
+}
+.OpenProduct .content0 .right{
+	padding-left:25px;
+}
+.OpenProduct .content0 h4{
+	font-size:1.8em;
+	line-height:100%;
+}
+.OpenProduct .content0 b{
+	line-height:180%;
+	font-size:0.9em;
+}
+.OpenProduct .content0 P{
+	line-height:140%;
+	font-size:0.9em;
+	padding-top: 20px;
+}
+/*AIMDescriptionBox*/
+.AIMSoftware{
+	background:#fff;
+}
+.AIMSoftware p{
+	display:block;
+}
+.AIMSoftware.CrossChex{
+}
+.AIMSoftware.IntelliSight{
+}
+.AIMDescriptionBox{
+	width:100%;
+	margin-bottom:4em;
+}
+.AIMSoftware.CrossChex .AIMDescriptionBox{
+	background:#e0e7df;
+}
+.AIMSoftware.IntelliSight .AIMDescriptionBox{
+	background:#e7dfdf;
+}
+.AIMDescription{
+	padding:5em 0;
+	text-align:center;
+	background:url(images/AIMDescription_mask.png) no-repeat center center;
+	background-size:auto 100%;
+}
+.AIMDescription h1{
+	font-size:4em;
+	line-height:1em;
+	padding-bottom:0.2em;
+	font-weight: bold;
+	font-weight: 600;
+}
+.AIMSoftware.CrossChex .AIMDescriptionBox .AIMDescription h1{
+	color:#448d3c;
+}
+.AIMSoftware.IntelliSight .AIMDescriptionBox .AIMDescription h1{
+	color:#c4141c;
+}
+.AIMDescription a.more{
+	font-size:1.2em;
+	width:150px;
+}
+.AIMDescription a.more.null{
+	background-color: #eee;
+	color: #bbb;
+}
+.AIMDescription a.more.Coming{
+	background-color: #aaa;
+	color: #efefef;
+}
+.AIMDescription h3, .AIMDescription p{
+	line-height:1.4em;
+	color:#555;
+	width:790px!important;
+	margin:0 auto;
+	display:block!important;
+}
+.AIMDescription h3{
+	font-weight:600;
+}
+.AIMDescription p{
+	margin-bottom:2em;
+}
+.AIMDescription .info{
+	color: #888;
+	margin: 1em auto;
+}
+/* AIMInterface gallery */
+.AIMInterfaceBox {
+	width:100%;
+	height:350px;
+	position:relative;
+}
+.AIMInterfaceBox .Ribbon{
+	height:57px;
+	position:absolute;
+	width:100%;
+	left:0;
+	bottom:55px;
+	z-index:0;
+}
+.AIMInterfaceBox .Ribbon b{
+	height: 57px;
+	border-bottom: 20px solid white;
+	display: block;
+	width: 560px;
+	position: absolute;
+	left: 50%;
+	margin-left: -479px;
+	bottom: 0;
+}
+.AIMSoftware.CrossChex .AIMInterfaceBox .Ribbon{
+	background:#448d3c;
+}
+.AIMSoftware.CrossChex .AIMInterfaceBox .Ribbon b{
+	background: #175c07;
+}
+.AIMSoftware.IntelliSight .AIMInterfaceBox .Ribbon{
+	background:#c4141c;
+}
+.AIMSoftware.IntelliSight .AIMInterfaceBox .Ribbon b{
+	background: #730304;
+}
+.AIMInterface {
+	position: relative;
+	font-weight: 300;
+	margin:0 auto;
+	z-index:2;
+}
+.AIMInterface .info{
+	position:absolute;
+	top:40px;
+	left:565px;
+	color:#333;
+}
+.AIMInterface .info h2{
+	line-height:2;
+	font-size:1.8em;
+}
+.AIMInterface .AIMInterface_Glossy{
+	background: url(images/AIMInterface_Glossy.png) right top no-repeat #fff;
+	z-index: 1;
+	position: absolute;
+	top: 2px;
+	left: 1px;
+	height: 313px;
+	width: 520px;
+}
+.AIMInterface a {
+	position: absolute;
+	z-index: 1;
+	width:500px;
+	height:293px;
+	padding:10px;
+	left: 0;
+	background:#000;
+	text-align: center;
+	border-width:1px;
+	border-color:#9C9C9C #282828 #000 #5e5e5e;
+	border-style: solid;
+}
+.AIMInterface img {
+	width:500px;
+	height:293px;
+	border: none;
+}
+/* pagination control */
+
+.AIMInterface ul {
+	left:0;
+	width:520px;
+	position:absolute;
+	bottom:0;
+	text-align:center;
+}
+.AIMInterface ul li{
+	width: 17px;
+	display: inline-block;
+}
+.AIMInterface ul li a{
+	background:#ccc;
+	width:12px;
+	height:12px;
+	display:block;
+	position:relative;
+	text-indent:-9999px;
+	cursor:pointer;
+	border-radius:7px;
+	border:0;
+	padding:0;
+}
+.AIMSoftware.CrossChex .AIMInterface ul li a.current{
+	background:#448d3c;
+}
+.AIMSoftware.IntelliSight .AIMInterface ul li a.current{
+	background:#c4141c;
+}
+/* caption control */
+
+.AIMInterface ol {
+	bottom:0;
+	left:565px;
+	font-size: 16px;
+	color: #fff;
+	position:absolute;
+}
+.AIMInterface ol li {
+	text-align: left;
+	display: block;
+	width: 258px;
+	position: absolute;
+	bottom:44px;
+	left: 10px;
+	right: 10px;
+	line-height:1.2em;
+}
+.AIMInterface ol li b {
+	display: block;
+	float: left;
+}
+.AIMInterface ol li b b {
+	font-weight: normal;
+	float: none;
+}
+.AIMInterface ol li b span {
+	display: block;
+	clear: both;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 22px;
+	padding-bottom: 10px;
+}
+.AIMInterface ol li font {
+	display: block;
+	float: left;
+	height: 30px;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 52px;
+}
+.AIMInterface ol li h3 {
+	font-weight: normal;
+	display: block;
+	clear: both;
+	font-size: 18px;
+	margin: 0 0 30px 0
+}
+/*AIMAbout*/
+h2.AIMAbout{
+	margin: 1em auto;
+	line-height: 1em;
+	text-align: center;
+	font-size: 2em;
+	color:#333;
+}
+.CrossChexImg h2{
+	font-size:2em;
+	line-height:1em;
+}
+.CrossChexImg p{
+}
+.CrossChexImg ul li{
+	width:305px;
+	float:left;
+	height:218px;
+	margin:0 32px 20px 0;
+}
+.CrossChexImg ul li.last{
+	margin-right:0;
+}
+.CrossChexImg ul li h5{
+	font-weight:1em;
+	line-height:2em;
+}
+/*IPC*/
+
+.text1.Suerveillance{
+	background-image:url(images/SuerveillanceBanner.png);
+	height:437px;
+	background-position: center center;
+}
+.text1.Suerveillance .Banner{
+	padding-top:50px;
+}
+.SuerveillanceMode ul{
+	margin-right:-6px;
+}
+.SuerveillanceMode{
+	width:100%;
+	background-color:#fff;
+	padding:35px 0;
+	color:#444;
+}
+.SuerveillanceMode table{
+	margin-bottom:30px;
+}
+.SuerveillanceMode table.IPCMode{
+	margin-bottom:50px;
+}
+.IPC h4{
+	font-size:3.5em;
+	line-height:1.2em;
+}
+.IPC h5{
+	font-size:1.4em;
+	line-height:1.2em;
+}
+.IPC p{
+	font-size:0.8em;
+	line-height:140%;
+	color:#444;
+	padding:20px 0;
+}
+.IPC ul li{
+	width:64px;
+	margin:0 16px 10px 0;
+	float:left;
+}
+.IPCProduct{
+	width:372px;
+	height:195px;
+	background-color:#ededed;
+}
+.IPCProduct.IPCmargin{
+	margin-bottom:3px;
+}
+.IPCProduct0{
+	width:203px;
+	height:383px;
+	background-color:#ededed;
+	padding:0 10px 10px;
+}
+.IPCProduct h5{
+	font-size:1.5em;
+	line-height:100%;
+	width:180px;
+	padding:0 0 8px 16px;
+}
+.IPCProduct p{
+	width:180px;
+	line-height:110%;
+	padding-left:16px;
+	font-size:0.8em;
+}
+.IPCProduct0 h5{
+	font-size:1.5em;
+	line-height:100%;
+	padding-bottom:8px;
+}
+.IPCProduct0 p{
+	font-size:0.8em;
+}
+.Recorder{
+	width:100%;
+	background:url(images/Recorder.png) no-repeat center bottom #f0f0f0;
+	height:299px;
+	padding:35px 0;
+}
+.Recorder .IPC p{
+	width:480px;
+	display:block;
+}
+.AIMMode{
+	border-top:30px solid #f0f0f0;
+	background-color: #fff;
+	padding: 80px 0;
+	width: 100%;
+}
+
+/*RFID*/
+
+.text1.RFID{
+	background-image:url(images/RFID_01.png);
+	height:437px;
+	background-position: center center;
+}
+.text1.RFID .Banner{
+	padding-top:50px;
+}
+.RFIDMode ul{
+	margin-right:-6px;
+}
+.RFIDMode{
+	width:100%;
+	background-color:#fff;
+	padding:35px 0;
+	color:#444;
+}
+.RFIDMode table{
+	margin-bottom:30px;
+}
+.RFIDMode table.IPCMode{
+	margin-bottom:50px;
+}
+.RFIDItem h4{
+	font-size:3.5em;
+	line-height:1.2em;
+}
+.RFIDItem h5{
+	font-size:1.4em;
+	line-height:1.2em;
+}
+.RFIDItem p{
+	font-size:0.8em;
+	line-height:140%;
+	color:#444;
+	padding:10px 0;
+}
+.RFIDItem ul li{
+	width:64px;
+	margin:0 16px 10px 0;
+	float:left;
+}
+.ReaderProductBox div{
+	width:200px;
+	height:260px;
+	padding:10px;
+	background-color:#f0f0f0;
+}
+.ReaderProductBox b{
+	width:100%;
+	text-align:center;
+	display:block;
+	padding:10px 0;
+}
+.ReaderProductBox p{	
+	margin:10px 0;
+}
+.Controller{
+	width:100%;
+	background:#f0f0f0;
+	height:350px;
+	padding:35px 0;
+}
+.Controller .RFIDItem p{
+	width:480px;
+	display:block;
+}
+.RFIDApplication{
+	background:#fff;
+	padding:50px 0;
+}
+.RFIDSACS{
+	background:#f0f0f0;
+	padding: 80px 0;
+	width: 100%;
+}
+.RFIDSACS .Feature{
+	margin-top:40px;
+}
+.RFIDSACS .Feature td div{
+	background:#fff;
+	padding:20px 15px;
+	margin:0 5px 5px 0;
+	height:126px;
+}
+.RFIDSACS .Feature td div.MiddleItem{
+	height:297px;
+}
+/*HaveListBox*/
+.HaveListBox{
+	color:#666;
+}
+.HaveListBox th{
+	border-bottom:3px solid #dfe7df;
+}
+.HaveListBox td{
+	height:30px;
+	line-height:30px;
+	border-bottom:1px solid #dfe7df;
+}
+.HaveListBox tr.NoBorder td{
+	border:0;
+}
+.HaveListBox td label{
+	width:100%;
+	text-align:right;
+	display: block;
+}
+.HaveListBox td.HaveList{
+	background:#fff;
+}
+.HaveListBox th b{
+	padding:0 10px;
+	line-height:60px;
+	display:block;
+	text-align:left;
+	color:#fff;
+	font-size:1.8em;
+	background:#919191;
+	position:relative;
+	bottom:-3px;
+}
+.HaveListBox td span{
+	text-align:left;
+	display:block;
+	padding:0 10px;
+}
+.HaveListBox td span.price{
+	font-size: 2em;
+}
+.HaveListBox td span.price font{
+	font-size:.8em;
+}
+.HaveListBox td .DownloadAIMSoft{
+	padding:10px;
+	text-align:center;
+}
+.AIMSoftware.CrossChex .HaveListBox th b.Advance{
+	background:#097c25;
+}
+.HaveListBox td b{
+	display:block;
+	height:30px;
+	width:100%;
+	background:url(images/AIMTypeSelect2.png) no-repeat;
+}
+.HaveListBox td b.HaveIt{
+	background-position:10px 0;
+}
+.HaveListBox td b.NotHaveIt{
+	background-position:10px -30px;
+}
+
+@media only screen and (max-width: 850px){
+	.ProductBlock {
+		padding:0 30px;
+	}
+	.ProductBlock ul li{
+		width:47%;
+		/* height:240px; */
+		vertical-align:top;
+	}
+	.OpenProduct .ProductTitle{
+		height:auto;
+		text-align:center;
+	}
+	.OpenProduct .ProductTitle h1{
+		padding: 20px;
+		border:0;
+		margin:0;
+	}
+	.OpenProduct .ProductTitle h1 b{
+		display:block;
+		padding:0;
+	}
+	.productdetailwrap .item section.description{
+		height:auto;
+		padding-bottom: 1em;
+	}
+
+	.ProductDetail .BreadCrumbs {
+		font-size: .4em;
+		border: 1px solid #ccc;
+		margin: 20px;
+		font-weight: 300;
+	}
+	.OpenProduct .ProductTitle .addthis_toolbox{
+		position: static;
+		float: none;
+		margin: 10px auto;
+		text-align: center;
+		width: auto;
+	}
+	.OpenProduct .ProductTitle .addthis_toolbox a {
+		display: inline-block;
+		float: none;
+	}
+	.OpenProduct .ProductNav{
+		float:none;
+	}
+	.OpenProduct .ProductNav ul{text-align: center;
+		margin: 0 auto;
+	}
+	.OpenProduct .ProductNav li{
+		float:none;
+		display: inline-block;
+		margin:10px 0;
+	}
+	.OpenProduct .ProductNav ul a.Sales{
+		float:none;
+	}
+	.OpenProduct .ProductImg{
+		height: auto;
+		max-height: none;
+	}
+	.OpenProduct .ProductImg .ProductImgList{
+		width:100%;
+	}
+	.OpenProduct .ProductImg .SlideTab{
+		/* position: static; */
+		margin: 0 auto;
+		/* float: none; */
+		width: 100%;
+		border: 0;
+		display: table-row;
+	}
+	.OpenProduct .ProductImg .SlideTab ul{
+		-ms-flex-direction: row;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		        flex-direction: row;
+	}
+	.OpenProduct .ProductImg > .SlideListb{
+		width: 100%;
+		/* position: static; */
+		/* float: none; */
+		display: table-row;
+	}
+	.OpenProduct .ProductImg .SlideListb dl img{
+		max-width:100%;
+		height:auto;
+	}
+	.OpenProduct .ProductDiscreption{
+		position: static;
+	}
+	.OpenProduct .ProductNav li a{
+		float:none;
+	}
+	.OpenProduct .ProductDiscreption p, .OpenProduct .application p{
+		font-size: .8em;
+	}
+	.productdetailwrap .item section{
+		padding:0 10px;
+	}
+	.ListOpen.OpenProduct .productdetailwrap {
+		margin: 0!important;
+	}
+}
+@media only screen and (max-width: 600px){
+	.ProductBlock ul li{
+		width:100%;
+		height:auto;
+		vertical-align:top;
+	}
+	.ProductBlock ul li .ProductItem{
+		text-align:center;
+	}
+	.ProductBlock ul li .support{
+		display:block;
+		opacity:1;
+		text-align: center;
+		padding: 10px;
+	}
+}
+
+
+.text1 .Banner{
+	padding-bottom:20px;
+}
+
+.allProductWrapper > ul > li {
+	padding-bottom: 30px;
+	padding-top: 30px;
+	background: #fff;
+	text-align:center;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	border-right: 1px solid rgba(0,0,0,.1);
+}
+@media only screen and (min-width: 769px){
+	.allProductWrapper > ul > li {
+		display: table-cell;
+	}
+	.allProductWrapper > ul > li:last-child{
+		border-right:0;
+	}
+	.allProductWrapper > ul > li:hover {
+		-webkit-box-shadow: 0 4px 12px 3px rgba(0,0,0,.11);
+		        box-shadow: 0 4px 12px 3px rgba(0,0,0,.11);
+		position: relative;
+		z-index: 1;
+		-webkit-transform:scale(1.05);
+		    -ms-transform:scale(1.05);
+		        transform:scale(1.05);
+	}
+	.allProductWrapper > ul > li a{text-decoration: none; display: block;}
+
+	.allProductWrapper > ul > li a img{
+		opacity:.04;
+		-webkit-transition:all .3s ease;
+		-o-transition:all .3s ease;
+		transition:all .3s ease; 
+		-webkit-filter: blur(10px);
+		-moz-filter: blur(10px);
+		-ms-filter: blur(10px);    
+		filter: blur(10px);  
+	}
+
+	.allProductWrapper > ul > li:hover h2{
+		-webkit-transform: translateY(0) scale(1);
+		    -ms-transform: translateY(0) scale(1);
+		        transform: translateY(0) scale(1);
+	}
+	.allProductWrapper > ul > li:hover a img{
+		opacity:1;
+		-webkit-filter: blur(0);
+		-moz-filter: blur(0);
+		-ms-filter: blur(0);    
+		filter: blur(0);  
+	}
+	.allProductWrapper > ul > li ul {
+		text-align: center;
+		display: inline-block;
+	}
+	.allProductWrapper {
+		line-height: 2em;
+	}
+	.allProductWrapper ul{
+		display:table;
+	}
+	.allProductWrapper h2{
+		-webkit-transform: translateY(-100px) scale(1.2);
+		    -ms-transform: translateY(-100px) scale(1.2);
+		        transform: translateY(-100px) scale(1.2);
+	}
+}
+.allProductWrapper > ul > li ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
+.allProductWrapper h2{
+	font-size:1.4em;
+	color:#444;
+	-webkit-transition:all .3s ease;
+	-o-transition:all .3s ease;
+	transition:all .3s ease;
+}
+.allProductWrapper h2,
+.allProductWrapper h3 {
+	text-align:center;
+	font-weight:100;
+	text-decoration: none;
+}
+.allProductWrapper h3{
+	font-size:1em;
+}
+.allProductWrapper h2 i{
+	display:block;
+	font-size:2.5em;
+}
+.allProductWrapper h2 a{
+	color:#444;
+}
+@media only screen and (max-width: 768px){
+	.allProductWrapper > ul > li{
+		display: inline-block;
+		border-right: 0;
+	}
+	.allProductWrapper h3{
+		font-size:1em;
+		display:none
+	}
+	.allProductWrapper > ul > li ul li a{
+		padding:10px 0;
+		display: inline-block;
+	}
+	.fulls_video_banner_bg_wrap{
+		top:0;
+	}
+}

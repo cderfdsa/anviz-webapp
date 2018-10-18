@@ -1,0 +1,129 @@
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.swiper-container-vertical>.swiper-pagination-bullets{
+	top: 44px;
+    left: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transform: translate3d(-2%,0,0);
+    -ms-transform: translate3d(-2%,0,0);
+    transform: translate3d(-2%,0,0);
+}
+.backpack.dropzone {
+  font-family: 'SF UI Display', 'Segoe UI';
+  font-size: 15px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 250px;
+  height: 150px;
+  font-weight: lighter;
+  color: white;
+  will-change: right;
+  z-index: 2147483647;
+  bottom: 20%;
+  background: #333;
+  position: fixed;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: left .5s, right .5s;
+  -o-transition: left .5s, right .5s;
+  transition: left .5s, right .5s;
+  right: 0px; }
+  .backpack.dropzone .animation {
+    height: 80px;
+    width: 250px;
+    background: url("//sxt.cdn.skype.com/assets/dropzone/hoverstate.png") left center; }
+  .backpack.dropzone .title::before {
+    content: 'Save to'; }
+  .backpack.dropzone.closed {
+    right: -250px; }
+  .backpack.dropzone.hover .animation {
+    -webkit-animation: sxt-play-anim-hover 0.91s steps(21);
+            animation: sxt-play-anim-hover 0.91s steps(21);
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    background: url("//sxt.cdn.skype.com/assets/dropzone/hoverstate.png") left center; }
+
+#item1{
+	margin-top: 100px;
+}
+#item2{
+	margin-top: 260px;
+}
+
+
+
+@-webkit-keyframes sxt-play-anim-hover {
+  from {
+    background-position: 0px; }
+  to {
+    background-position: -5250px; } }
+
+
+
+@keyframes sxt-play-anim-hover {
+  from {
+    background-position: 0px; }
+  to {
+    background-position: -5250px; } }
+  .backpack.dropzone.saving .title::before {
+    content: 'Saving to'; }
+  .backpack.dropzone.saving .animation {
+    background: url("//sxt.cdn.skype.com/assets/dropzone/saving_loop.png") left center;
+    -webkit-animation: sxt-play-anim-saving steps(59) 2.46s infinite;
+            animation: sxt-play-anim-saving steps(59) 2.46s infinite; }
+
+@-webkit-keyframes sxt-play-anim-saving {
+  100% {
+    background-position: -14750px; } }
+
+@keyframes sxt-play-anim-saving {
+  100% {
+    background-position: -14750px; } }
+  .backpack.dropzone.saved .title::before {
+    content: 'Saved to'; }
+  .backpack.dropzone.saved .animation {
+    background: url("//sxt.cdn.skype.com/assets/dropzone/saved.png") left center;
+    -webkit-animation: sxt-play-anim-saved steps(20) 0.83s forwards;
+            animation: sxt-play-anim-saved steps(20) 0.83s forwards; }
+
+@-webkit-keyframes sxt-play-anim-saved {
+  100% {
+    background-position: -5000px; } }
+
+@keyframes sxt-play-anim-saved {
+  100% {
+    background-position: -5000px; } }

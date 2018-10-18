@@ -1,0 +1,190 @@
+.product-describe,
+.product-future{
+	background: #FFFFFF;
+}
+.product-describe .mui-row div li a{
+	width: 83px;
+    height: 83px;
+    display: block;
+    margin: 13px;
+    margin-left: 0;
+    background: url(../img/icon/ProductFeatureIcon.png) no-repeat #6f6f6f;
+}
+
+.product-describe .mui-row div li a.PFI_TouchScreen{
+	background-position:0 0;
+}
+
+.product-describe .mui-row div li a.PFI_FingerprintSensor{
+	background-position:-581px 0;
+}
+.product-describe .mui-row div li a.PFI_InbuiltProximityCardReader{
+	background-position:-415px 0;
+}
+
+.product-describe .mui-row div li a.PFI_Record{
+	background-position:0 -166px;
+}
+.product-describe .mui-row div li a.PFI_USBHost{
+	background-position:-249px -83px;
+}
+.product-describe .mui-row div li a.PFI_Webserver{
+	background-position:-332px -166px;
+}
+
+
+.product-describe .mui-row div li a.PFI_TouchScreen{
+
+	background-position:0 0;
+
+}
+
+.product-describe .mui-row div li a.PFI_DualCameras{
+
+	background-position:-83px 0;
+
+}
+
+.product-describe .mui-row div li a.PFI_Camera{
+
+	background-position:-166px 0;
+
+}
+
+.product-describe .mui-row div li a.PFI_IrisRecognition{
+
+	background-position:-249px 0;
+
+}
+
+.product-describe .mui-row div li a.PFI_VoicePrompt{
+
+	background-position:-332px 0;
+
+}
+
+.product-describe .mui-row div li a.PFI_InbuiltProximityCardReader{
+
+	background-position:-415px 0;
+
+}
+
+.product-describe .mui-row div li a.PFI_TFTColorLCD{
+
+	background-position:-498px 0;
+
+}
+
+.product-describe .mui-row div li a.PFI_FingerprintSensor{
+
+	background-position:-581px 0;
+
+}
+
+.product-describe .mui-row div li a.PFI_GPRS{
+
+	background-position:0 -83px;
+
+}
+
+.product-describe .mui-row div li a.PFI_Wifi{
+
+	background-position:-83px -83px;
+
+}
+
+.product-describe .mui-row div li a.PFI_TCPIP{
+
+	background-position:-166px -83px;
+
+}
+
+.product-describe .mui-row div li a.PFI_USBHost{
+
+	background-position:-249px -83px;
+
+}
+
+.product-describe .mui-row div li a.PFI_ZigBee{
+
+	background-position:-332px -83px;
+
+}
+
+.product-describe .mui-row div li a.PFI_RS232RS485{
+
+	background-position:-415px -83px;
+
+}
+
+.product-describe .mui-row div li a.PFI_USB{
+
+	background-position:-498px -83px;
+
+}
+
+.product-describe .mui-row div li a.PFI_Bluetooth{
+
+	background-position:-581px -83px;
+
+}
+
+.product-describe .mui-row div li a.PFI_Record{
+
+	background-position:0 -166px;
+
+}
+
+.product-describe .mui-row div li a.PFI_MultipleLanguageDisplay{
+
+	background-position:-83px -166px;
+
+}
+
+.product-describe .mui-row div li a.PFI_TextMessage{
+
+	background-position:-166px -166px;
+
+}
+
+.product-describe .mui-row div li a.PFI_DaylightSaving{
+
+	background-position:-249px -166px;
+
+}
+
+.product-describe .mui-row div li a.PFI_Webserver{
+
+	background-position:-332px -166px;
+
+}
+
+.product-describe .mui-row div li a.PFI_RemoteDoorControl{
+
+	background-position:-415px -166px;
+
+}
+
+.product-describe .mui-row div li a.Battery{
+
+	background-position:-498px -166px;
+
+}
+
+.product-describe .mui-row div li a.Password{
+
+	background-position:-581px -166px;
+
+}
+
+.product-describe .mui-row div li a.IP65{
+
+	background-position:0 -249px;
+
+}
+
+.product-describe .mui-row div li a.IK10{
+
+	background-position:-83px -249px;
+
+}

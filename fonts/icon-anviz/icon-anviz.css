@@ -1,0 +1,194 @@
+@font-face {
+  font-family: 'anviz-update-icon';
+  src:  url('anviz-update-icon.eot?upjf99');
+  src:  url('anviz-update-icon.eot?upjf99#iefix') format('embedded-opentype'),
+    url('anviz-update-icon.ttf?upjf99') format('truetype'),
+    url('anviz-update-icon.woff?upjf99') format('woff'),
+    url('anviz-update-icon.svg?upjf99#anviz-update-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="update-"], [class*=" update-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'anviz-update-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.update-file-view:before {
+  content: "\e919";
+}
+.update-email:before {
+  content: "\e917";
+}
+.update-warning-news:before {
+  content: "\e90f";
+}
+.update-completed:before {
+  content: "\e911";
+}
+.update-be-solved:before {
+  content: "\e913";
+}
+.update-new-news:before {
+  content: "\e915";
+}
+.update-anzhuo:before {
+  content: "\e90b";
+}
+.update-apple2:before {
+  content: "\e909";
+}
+.update-erweima:before {
+  content: "\e90d";
+}
+.update-antenna_larger:before {
+  content: "\e904";
+}
+.update-camera_larger:before {
+  content: "\e905";
+}
+.update-case_study_larger:before {
+  content: "\e906";
+}
+.update-catalogue_larger:before {
+  content: "\e907";
+}
+.update-certificate_larger:before {
+  content: "\e908";
+}
+.update-controller_larger:before {
+  content: "\e90a";
+}
+.update-download_larger:before {
+  content: "\e90c";
+}
+.update-face_entry_larger:before {
+  content: "\e90e";
+}
+.update-face_terminal_larger:before {
+  content: "\e910";
+}
+.update-faq_larger:before {
+  content: "\e912";
+}
+.update-fingerprint_larger:before {
+  content: "\e914";
+}
+.update-firmware_larger:before {
+  content: "\e916";
+}
+.update-hardware_larger:before {
+  content: "\e918";
+}
+.update-edk_larger:before {
+  content: "\e91a";
+}
+.update-iris_terminal_larger:before {
+  content: "\e91c";
+}
+.update-iris_usb_scanner_larger:before {
+  content: "\e91e";
+}
+.update-manual_larger:before {
+  content: "\e920";
+}
+.update-moudles_larger:before {
+  content: "\e922";
+}
+.update-online_service_larger:before {
+  content: "\e924";
+}
+.update-reader_largery:before {
+  content: "\e926";
+}
+.update-recoder_larger:before {
+  content: "\e928";
+}
+.update-remote_desktop_support_larger:before {
+  content: "\e92a";
+}
+.update-sdk_larger:before {
+  content: "\e92c";
+}
+.update-smart_lock_larger:before {
+  content: "\e92e";
+}
+.update-software_larger:before {
+  content: "\e930";
+}
+.update-tag_larger:before {
+  content: "\e932";
+}
+.update-training_larger:before {
+  content: "\e934";
+}
+.update-trouble_ticket_largery:before {
+  content: "\e936";
+}
+.update-video_larger:before {
+  content: "\e938";
+}
+.update-warranty_larger:before {
+  content: "\e93a";
+}
+.update-access_control_larger:before {
+  content: "\e93c";
+}
+.update-biometric_larger:before {
+  content: "\e93e";
+}
+.update-facial_larger:before {
+  content: "\e940";
+}
+.update-rfid_larger:before {
+  content: "\e942";
+}
+.update-surveillance_larger:before {
+  content: "\e944";
+}
+.update-time_attendance_larger:before {
+  content: "\e946";
+}
+.update-communicate:before {
+  content: "\e948";
+}
+.update-search:before {
+  content: "\e949";
+}
+.update-anviz_logo_R:before {
+  content: "\e94b";
+}
+.update-anviz_logo:before {
+  content: "\e94c";
+}
+.update-sercurityone:before {
+  content: "\e94d";
+}
+.update-crosschex:before {
+  content: "\e94e";
+}
+.update-intellisight:before {
+  content: "\e94f";
+}
+.update-PC-USB-Port:before {
+  content: "\e900";
+}
+.update-Processor:before {
+  content: "\e901";
+}
+.update-SDK:before {
+  content: "\e902";
+}
+.update-V-Adapter:before {
+  content: "\e903";
+}

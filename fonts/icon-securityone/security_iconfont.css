@@ -1,0 +1,106 @@
+
+@font-face {font-family: "security-iconfont";
+  src: url('iconfont.eot?t=1496393889732'); /* IE9*/
+  src: url('iconfont.eot?t=1496393889732#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1496393889732') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1496393889732') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1496393889732#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.security-iconfont {
+  font-family:"security-iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-RemoteSecurity:before { content: "\e60e"; }
+
+.icon-EasyInstallation:before { content: "\e61c"; }
+
+.icon-LowerCost:before { content: "\e61d"; }
+
+.icon-HighSecurity:before { content: "\e61e"; }
+
+.icon-spot:before { content: "\e61f"; }
+
+.icon-Workonsite:before { content: "\e620"; }
+
+.icon-Workincloud:before { content: "\e621"; }
+
+.icon-Gate:before { content: "\e622"; }
+
+.icon-Office:before { content: "\e623"; }
+
+.icon-EntranceandExit:before { content: "\e624"; }
+
+.icon-Perimeter:before { content: "\e625"; }
+
+.icon-Switch:before { content: "\e626"; }
+
+.icon-Temperaturecontrol:before { content: "\e627"; }
+
+.icon-Lightcontrol:before { content: "\e628"; }
+
+.icon-Peopleawareness:before { content: "\e629"; }
+
+.icon-testTemperature-red:before { content: "\e62a"; }
+
+.icon-camera-green:before { content: "\e62b"; }
+
+.icon-camera-red:before { content: "\e62c"; }
+
+.icon-testTemperature-gree:before { content: "\e62d"; }
+
+.icon-Alarmpush:before { content: "\e62e"; }
+
+.icon-Mapoperation:before { content: "\e62f"; }
+
+.icon-Clouddeployment:before { content: "\e630"; }
+
+.icon-Client:before { content: "\e631"; }
+
+.icon-Lowsoftwarecost:before { content: "\e633"; }
+
+.icon-ReduceSecurityGuar:before { content: "\e634"; }
+
+.icon-Lowhardwarecost:before { content: "\e635"; }
+
+.icon-ReduceSecurityGuar1:before { content: "\e632"; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.scenes-font{
+	  color: #555;
+    font-size: 44px;
+    display: block;
+    margin-bottom: 20px;
+}
+.work-font{
+	font-size: 1.5em;
+  margin-right: 10px;
+  line-height: 16px;
+}
+.icon-size{
+	font-size: 4em;
+	color: #E6851C;
+	display: block;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.icon-size:hover{
+	color: #E6BA1C;
+}
